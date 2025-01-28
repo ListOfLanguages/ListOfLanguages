@@ -1,5 +1,6 @@
 ## Select a Language 👋
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,21 +37,28 @@
         li:last-child {
             border-bottom: none;
         }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <h1>List of Languages</h1>
     <ul>
-        <li>普通话</li>
-        <li>हिन्दी</li>
-        <li>español</li>
-        <li>français</li>
-        <li>عربي</li>
-        <li>বাংলা</li>
-        <li>português</li>
-        <li>русский</li>
-        <li>اردو</li>
-        <li>Indonesia</li>
+        <li><a href="https://www.google.com/search?q=Mandarin">Mandarin</a></li>
+        <li><a href="https://www.google.com/search?q=Hindi">Hindi</a></li>
+        <li><a href="https://www.google.com/search?q=Spanish">Spanish</a></li>
+        <li><a href="https://www.google.com/search?q=French">French</a></li>
+        <li><a href="https://www.google.com/search?q=Arabic">Arabic</a></li>
+        <li><a href="https://www.google.com/search?q=Bengali">Bengali</a></li>
+        <li><a href="https://www.google.com/search?q=Portuguese">Portuguese</a></li>
+        <li><a href="https://www.google.com/search?q=Russian">Russian</a></li>
+        <li><a href="https://www.google.com/search?q=Urdu">Urdu</a></li>
+        <li><a href="https://www.google.com/search?q=Indonesian">Indonesian</a></li>
     </ul>
 </body>
 </html>
